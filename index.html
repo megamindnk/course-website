@@ -1,216 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Helping Screen</title>
-    
-        <!-- Bootstrap CSS -->
-    
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/styling.css">
-        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helping Screen</title>
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styling.css">
+  
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <div class="nav-brand">
-            <h1 class="text-light"> Hello</h1>
-        </div>
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <form class="form-inline ml-auto">
-            <input class="form-control mx-1" type="text" placeholder="Search">
-            <button class="btn my-2 bg-success" type="submit"><i class="fas fa-search"></i></button>
-        </form>  
-          <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class='fas fa-home' style='font-size:25px'></i><span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown navbar-dark">
-                    <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown">Register</a>
-                    <div class="dropdown-menu text-primary">
-                      <button class=" btn dropdown-item " data-toggle="modal" data-target="#loginmodal">Login</button>
-                          <div class="dropdown-divider"></div>
-                          <button class="btn dropdown-item" data-toggle="modal" data-target="#signupmodal">Signup</button>
-                    </div>
-                </li>
-            </ul>
-            
-        </div>
-    </nav>
-    <div id="demo" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-      
-        <!-- The slideshow -->
-        <div class="carousel-inner mb-0">
-          <div class="carousel-item active text-center">    
-            <div class="mr-auto p-5 bg-dark">
-                <h1 class="display-2 text-white">Title of the website<br>goes here</h1>
-                <p class="lead">Sub-heading</p>
-                <hr>
-            </div>
-          </div>
-          <div class="carousel-item text-center">
-            <div class="bg-dark">
-                <img src="deadpool-3840x2160-marvel-comics-minimal-4k-12440.png" >
-            </div>
-          </div>
-          <div class="carousel-item text-center">
-            <div class="p-0 bg-dark">
-                <img src="816720.jpg">
-            </div>
-          </div>
-        </div>
-      
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <div class="nav-brand">
+      <h1 class="text-light"> Hello</h1>
     </div>
-<!-- modals -->
-  <div class="modal fade modal-small" id="loginmodal" role="dialog" >
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-left">Login</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          &times;
-        </button>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <form class="form-inline ml-auto">
+        <input class="form-control mx-1" type="text" placeholder="Search">
+        <button class="btn my-2 bg-success" type="submit"><i class="fas fa-search"></i></button>
+      </form>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class='fas fa-home' style='font-size:25px'></i><span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown navbar-dark">
+          <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown">Register</a>
+          <div class="dropdown-menu text-primary">
+            <button class=" btn dropdown-item " data-toggle="modal" data-target="#loginmodal">Login</button>
+            <div class="dropdown-divider"></div>
+            <button class="btn dropdown-item" data-toggle="modal" data-target="#signupmodal">Signup</button>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active text-center">
+        <div class="mr-auto p-5 bg-dark">
+          <h1 class="display-2 text-white">Title of the website<br>goes here</h1>
+          <p class="lead p-0">Sub-heading</p>
+          <hr>
+        </div>
       </div>
-      <div class="modal-body">
-        <form action="/action_page.php" class="form-group">
+      <div class="carousel-item text-center">
+        <div class="bg-dark ">
+          <img src="deadpool-3840x2160-marvel-comics-minimal-4k-12440.png">
+        </div>
+      </div>
+      <div class="carousel-item text-center">
+        <div class=" bg-dark">
+          <img src="816720.jpg">
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  <!-- modals -->
+  <div class="modal fade modal-small" id="loginmodal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-left">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            &times;
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="/action_page.php" class="form-group">
             <label for="email">Email address:</label>
             <input type="email" class="form-control" placeholder="Enter email" id="email">
             <label for="pwd">Password:</label>
             <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+        </div>
+        <div class="modal-footer">
+          <div class="form-group form-check"></div>
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Remember me
+          </label>
+          <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+        </div>
       </div>
-      <div class="modal-footer">
-        <div class="form-group form-check"></div>
-        <label class="form-check-label">
-          <input class="form-check-input" type="checkbox"> Remember me
-        </label>
-        <button type="submit" class="btn btn-primary">Login</button>
-    </form>
     </div>
-       </div>
-    </div>
-    </div>
-    <!--Signup modal  -->
-    <div class="modal fade modal-small" id="signupmodal" role="dialog" >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title text-left">SignUp</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              &times;
-            </button>
-          </div>
-          <div class="modal-body">
-            <form action="/action_page.php" class="form-group">
-              
-              <label for="Name">Full Name:</label>
-              <input type="text" class="form-control " placeholder="Enter Name" id="name">
-              <label for="Name">Current Course Name:</label>
-              <input type="text" class="form-control" placeholder="Enter Course name" id="coursename">
-                <label for="email">Email address:</label>
-                <input type="email" class="form-control" placeholder="Enter email" id="email">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" placeholder="Enter password" id="pwd">
-          </div>
-          <div class="modal-footer">
-            <div class="form-group form-check"></div>
-            <label class="form-check-label">
-              <input class="form-check-input" type="checkbox"> Remember me
-            </label>
-          
+  </div>
+  <!--Signup modal  -->
+  <div class="modal fade modal-small" id="signupmodal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-left">SignUp</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            &times;
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="/action_page.php" class="form-group">
+
+            <label for="Name">Full Name:</label>
+            <input type="text" class="form-control " placeholder="Enter Name" id="name">
+            <label for="Name">Current Course Name:</label>
+            <input type="text" class="form-control" placeholder="Enter Course name" id="coursename">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" placeholder="Enter email" id="email">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+        </div>
+        <div class="modal-footer">
+          <div class="form-group form-check"></div>
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Remember me
+          </label>
+
           <button type="submit" class="btn btn-primary">Signup</button>
-        </form>
+          </form>
         </div>
-           </div>
-        </div>
-    </div>
-    <!--body-->
-    <section class="courses">
-    <div class="page-header page-titles">
-        <h1 class="text-center p-2 pt-3">Courses</h1>
-        <hr class="w-25 mb-5 bg-dark">
       </div>
-    <div class="container-fluid mb-5">
+    </div>
+  </div>
+  <!--body-->
+  
+  <section class="courses ">
+    <div class="background"></div>
+    <div class="page-header page-titles">
+      <h1 class="text-center  pt-3 pb-0">Courses</h1>
+      <hr class=" mb-5 bg-dark">
+    </div>
+    <section class="container-fluid mb-5">
       <div class="row">
-        <div class="card col-lg-3 col-xs-12 justify-content-center mx-auto mb-2 p-0">
-            <p class="display-4 card-header">BCA(SCI)</p>
-            <div class="card-body">
-               <button class="btn btn-white" data-toggle="collapse" data-target="#ci1">Bachelor of Computer Application in Science</button>
-              </div>
-            <div id="ci1" class="collapse p-3 text-danger  ">
-              Bca Science is a new course started in 2016 by SavitribaiPhule University
-              It aims to make student in functional programmers.
-                It is three Years Course.
-            </div>
-            <div class="card-footer">
-              <a class="card-link" href="#">Full Info</a>
-              <a class="card-link" href="#">Admissions</a>
-              <a class="card-link" href="#">Resource Materials</a>
-            </div>
+        <div class="card col-lg-3 col-xs-6 justify-content-center mx-auto mb-2 p-0">
+          <p class="display-4 card-header">BCA(SCI)</p>
+          <div class="card-body">
+            <button class="btn btn-white" data-toggle="collapse" data-target="#ci1">Bachelor of Computer Application in
+              Science</button>
+          </div>
+          <div id="ci1" class="collapse p-3 text-danger  ">
+            Bca Science is a new course started in 2016 by SavitribaiPhule University
+            It aims to make student in functional programmers.
+            It is three Years Course.
+          </div>
+          <div class="card-footer">
+            <a class="card-link" href="#">Full Info</a>
+            <a class="card-link" href="#">Admissions</a>
+            <a class="card-link" href="#">Resources</a>
+          </div>
         </div>
-        <div class="card col-lg-3 col-xs-12 justify-content-center mx-auto mb-2 p-0">
+        <div class="card col-lg-3 col-xs-6 justify-content-center mx-auto mb-2 p-0">
           <p class="display-4 card-header">Course 2</p>
           <div class="card-body">
-            <button class="btn btn-white" data-toggle="collapse" data-target="#ci2">Click Here to see MOre Information</button>
+            <button class="btn btn-white" data-toggle="collapse" data-target="#ci2">Click Here to see MOre
+              Information</button>
           </div>
-        <div id="ci2" class="collapse p-3">more information</div>
+          <div id="ci2" class="collapse p-3">more information</div>
           <div class="card-footer">
             <a class="card-link" href="#">Link 1</a>
             <a class="card-link" href="#">Link 2</a>
             <a class="card-link" href="#">Link 3</a>
           </div>
-      </div>
-      <div class="card  col-lg-3 col-xs-12 justify-content-center mx-auto mb-2 p-0">
-        <p class="display-4 card-header">Course 3</p>
-        <div class="card-body">
-          <button class="btn btn-white" data-toggle="collapse" data-target="#ci3">Click Here to see MOre Information</button>
         </div>
-      <div id="ci3" class="collapse p-3">more information</div>
-        <div class="card-footer">
-          <a class="card-link" href="#">Link 1</a>
-          <a class="card-link" href="#">Link 2</a>
-          <a class="card-link" href="#">Link 3</a>
+        <div class="card  col-lg-3 col-xs-12 justify-content-center mx-auto mb-2 p-0">
+          <p class="display-4 card-header">Course 3</p>
+          <div class="card-body">
+            <button class="btn btn-white" data-toggle="collapse" data-target="#ci3">Click Here to see MOre
+              Information</button>
+          </div>
+          <div id="ci3" class="collapse p-3">more information</div>
+          <div class="card-footer">
+            <a class="card-link" href="#">Link 1</a>
+            <a class="card-link" href="#">Link 2</a>
+            <a class="card-link" href="#">Link 3</a>
+          </div>
         </div>
-    </div>  
       </div>
       <div class="row">
         <div class="card col-lg-3 col-xs-12 justify-content-center mx-auto mb-2 p-0">
-            <p class="display-4 card-header">Course 4</p>
-            <div class="card-body">
-              
-          <button class="btn btn-white" data-toggle="collapse" data-target="#ci3">Click Here to see MOre Information</button>
-        </div>
-            <div id="ci3" class="collapse p-3">more information</div>
-      
-            <div class="card-footer">
-              <a class="card-link" href="#">Link 1</a>
-              <a class="card-link" href="#">Link 2</a>
-              <a class="card-link" href="#">Link 3</a>
-            </div>
+          <p class="display-4 card-header">Course 4</p>
+          <div class="card-body">
+
+            <button class="btn btn-white" data-toggle="collapse" data-target="#ci3">Click Here to see MOre
+              Information</button>
+          </div>
+          <div id="ci3" class="collapse p-3">more information</div>
+
+          <div class="card-footer">
+            <a class="card-link" href="#">Link 1</a>
+            <a class="card-link" href="#">Link 2</a>
+            <a class="card-link" href="#">Link 3</a>
+          </div>
         </div>
         <div class="card col-lg-3 col-xs-12 justify-content-center mx-auto mb-2 p-0">
           <p class="display-4 card-header">Course 5</p>
@@ -220,73 +223,100 @@
             <a class="card-link" href="#">Link 2</a>
             <a class="card-link" href="#">Link 3</a>
           </div>
-      </div>
-      <div class="card  col-lg-3 col-xs-12 justify-content-center mx-auto mb-2 p-0">
-        <p class="display-4 card-header">Course 6</p>
-        <div class="card-body">Course Information</div>
-        <div class="card-footer">
-          <a class="card-link" href="#">Link 1</a>
-          <a class="card-link" href="#">Link 2</a>
-          <a class="card-link" href="#">Link 3</a>
         </div>
-    </div>  
-      </div>    
+        <div class="card  col-lg-3 col-xs-12 justify-content-center mx-auto mb-2 p-0">
+          <p class="display-4 card-header">Course 6</p>
+          <div class="card-body">Course Information</div>
+          <div class="card-footer">
+            <a class="card-link" href="#">Link 1</a>
+            <a class="card-link" href="#">Link 2</a>
+            <a class="card-link" href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </section>
+  <section class="container-fluid team bg-secondary pt-2 pb-4">
+    <div class="page-titles">
+      <hr class="bg-dark p-0">
+      <h1 class="text-center">Our Team</h1>
+      <hr class="mb-5 bg-dark">
+    </div>
+
+    <div class="row mx-auto my-auto">
+      <div class="col-lg-6 col-md-3 col-12 my-auto">
+        <img src="deadpool-3840x2160-marvel-comics-minimal-4k-12440.png" class="img-fluid mt-3">
+      </div>
+      <div class="col-lg-6 col-12 my-auto">
+        <div class="row mx-auto mt-2 p-0">
+          <div class="card col-lg-3 col-5 mb-3 mx-auto p-0">
+            <img class="card-img-top" src="816720.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Name</h5>
+              <p class="card-text">Information</p>
+            </div>
+          </div>
+          <div class="card col-lg-3 mb-3 col-5  mx-auto p-0">
+            <img class="card-img-top" src="816720.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Name</h5>
+              <p class="card-text">Information</p>
+            </div>
+          </div>
+          <div class="card col-lg-3 mb-3 col-5 p-0 ml-3 ">
+            <img class="card-img-top" src="816720.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Name</h5>
+              <p class="card-text">Information</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-    <section class="container-fluid team bg-secondary pt-2 pb-4">
-      <div class="page-header">
-      <hr class="w-25  bg-dark">
-      <h1 class="text-center">Our Team</h1>
-      <hr class="w-25 mb-5 bg-dark">
+  <!-- footer -->
+  <section class="footer mx-auto page-titles pb-5">
+    <div class="aboutus">
+      <h2 class="text-left ml-2 ">About Us</h2>
+      <p class="text-white ml-5">Our Team is currently working towards providing various Bachelor and Master Degree
+        Courses Materials online for free.
+        This includes Providing all resources such as references books, programs,project examples and previous year test
+        papers.
+        Our Aim is to provide you all with a simple interface so that you dont have to hasle around over the
+        Internet to find the correct materials
+        for your degree.
+      </p>
     </div>
-        
-        <div class="row mx-auto my-auto">
-          <div class="col-lg-6 col-md-3 col-sm-12 my-auto">
-              <img src="deadpool-3840x2160-marvel-comics-minimal-4k-12440.png" class="img-fluid mt-3">
-          </div>
-          <div class="col-lg-6 col-sm-12 my-auto">
-            <div class="row mx-auto mt-2">
-                <div class="card col-lg-3 mb-3 mx-auto p-0">
-                  <img class="card-img-top" src="816720.jpg" alt="">
-                  <div class="card-body">
-                    <h5 class="card-title">Name</h5>
-                    <p class="card-text">Information</p>
-                </div>
-              </div>
-              <div class="card col-lg-3 mb-3  mx-auto p-0">
-                <img class="card-img-top" src="816720.jpg" alt="">
-                <div class="card-body">
-                  <h5 class="card-title">Name</h5>
-                  <p class="card-text">Information</p>
-              </div>
-            </div>
-            <div class="card col-lg-3 mb-3  mx-auto p-0">
-              <img class="card-img-top" src="816720.jpg" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Name</h5>
-                <p class="card-text">Information</p>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-          </div>
-        </div>
-    </section>
-    <!-- footer -->
-    <section class="footer mx-auto page-titles pb-5">
-      <h2 class="text-left ml-4"><li>Quick Links</h2>
-        <div class="d-flex flex-column pl-5 ml-5">
-         <div class="p-2">
-          <li><a href="#" class="text-white">Upcoming Exams</a>
-          </div>
-         <div class="p-2">
-          <li><a href="#" class="text-white">Do A Quiz</a>
-          </div>
-          <div class="p-2">
-            <li> <a href="#" class="text-white">Feedback</a>
-          </div>
-        </div>
-    </section>
+    <h2 class="text-left ml-2">
+      <li>Quick Links
+    </h2>
+    <div class="d-flex flex-column pl-5 ml-5">
+      <div class="p-2">
+        <li><a href="#" class="text-white">Upcoming Exams</a>
+      </div>
+      <div class="p-2">
+        <li><a href="#" class="text-white">Do A Quiz</a>
+      </div>
+      <div class="p-2">
+        <li> <a href="#" class="text-white">Feedback</a>
+      </div>
+    </div>
+  </section>
 </body>
-</html>     
+
+</html>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
