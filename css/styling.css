@@ -36,13 +36,18 @@ nav{
 
 }
 .courses div h1{
-    color: rgb(32, 46, 168);
+    color: rgb(151, 159, 233);
+    text-shadow: white;
 }
-.page-titles{
+.page-titles,.borderbott{
     border-top: solid rgb(136, 135, 135) 5px;
+}
+.borderbott{
+    border-bottom: solid rgb(136, 135, 135) 5px;
 }
 .page-titles hr{
     width: 25%;
+    background-color: rgb(151, 159, 233);
 }
 .team .card{
     background-color: rgb(47, 48, 48);
@@ -72,7 +77,25 @@ nav{
     display: block;
     margin-right: 10%;
 }
-
+.course-detail{
+    color: white;
+    background-image: linear-gradient(to right , rgb(43, 42, 42) ,rgb(79, 82, 79));
+}
+body{
+    background-image: linear-gradient(to right , rgb(48, 46, 46) ,rgb(144, 150, 144));
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.card-body h5{
+    font-size: 1em;
+}
+.card:hover ,.card-footer:hover{
+    background-color: rgb(248, 234, 234);
+    margin: -1%;
+}
+img .logo{
+    width: 50px;
+    height: 20px;
+}
 @media (max-width: 579px) { 
     .carousel-inner img{
         width: 100%;
@@ -89,10 +112,13 @@ nav{
     .display-4{
         font-size: 1.7rem;
     }
-    .courses .container-fluid{
-        width: 90%;
+    .container-fluid{
+        width: 92%;
     }
     .page-titles hr{
         width: 50%;
     }
- }
+.img-fluid{
+    width:90%;
+}
+}
