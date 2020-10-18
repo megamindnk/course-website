@@ -13,15 +13,6 @@
 ::-webkit-scrollbar-thumb{
     background-color: rgb(95, 206, 4);
 }
-.bg-secondary{
-    background-color: rgb(5, 1, 1);
-    
-}
-body{
-    scroll-behavior: smooth;
-}
-nav{
-    border-bottom:solid rgb(5, 1, 1) 2px;
 }
 .backgrounddark{
     clip-path: circle(78.3% at 0 100%);
@@ -50,6 +41,9 @@ nav{
     color: rgb(151, 159, 233);
     text-shadow: white;
 }
+.page-titles,.borderbott{
+    border-top: solid rgb(136, 135, 135) 5px;
+}
 .borderbott{
     border-bottom: solid rgb(136, 135, 135) 5px;
 }
@@ -63,7 +57,6 @@ nav{
 }
 .footer{
     background-color: rgb(48, 44, 44);
-    
 }
 .footer h2{
     color : white;  
@@ -72,7 +65,7 @@ nav{
 }
 .footer li{
     list-style: symbols();
-   /* color: white;*/
+    color: white;
     padding: 0;
 }
 .page-titles h1{
@@ -100,9 +93,6 @@ nav{
 .bodybgwhite{
     background-image: linear-gradient(to right , rgb(164, 236, 206) ,rgb(168, 168, 168));
     font-family: 'Noto Sans JP', sans-serif;
-}
-.bodytext{
-    color : white;
 }
 .card-body h5{
     font-size: 1em;
