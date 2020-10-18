@@ -15,10 +15,10 @@
   
 </head>
 
-<body>
+<body class="bodybgdark">
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
     <div class="nav-brand">
-      <h1 class="text-light"> Hello</h1>
+      <h1 class="bodytext"> Hello</h1>
     </div>
   
      <button class="btn btn-outline ml-auto mr-1" id="themechanger"><i class="fa fa-cloud-sun theme" style="font-size:36px"></i></button>
@@ -33,16 +33,16 @@
     <div class="collapse navbar-collapse flex-grow-0" id="collapsibleNavbar">
       <form class="form-inline ml-auto " >
         <input class="form-control" type="text" placeholder="Search">
-        <button class="btn my-2 bg-success" type="submit"><i class="fas fa-search"></i></button>
+        <button class="btn my-2 bg-warning" type="submit"><i class="fas fa-search"></i></button>
       </form>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class='fas fa-home' style='font-size:25px'></i><span
+          <a class="nav-link" href="index.html"><i class='fas fa-home' style='font-size:25px ; color:rgb(6, 255, 68)'></i><span
               class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown dropleft navbar-dark">
-          <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown">Register</a>
-          <div class="dropdown-menu text-primary">
+          <a class="nav-link dropdown-toggle bodytext active" href="#" data-toggle="dropdown">Register</a>
+          <div class="dropdown-menu bodytext">
             <button class=" btn dropdown-item " data-toggle="modal" data-target="#loginmodal">Login</button>
             <div class="dropdown-divider"></div>
             <button class="btn dropdown-item" data-toggle="modal" data-target="#signupmodal">Signup</button>
@@ -52,23 +52,24 @@
 
     </div>
   </nav>
-<section class="container-fluid borderbott">
-  <div class="background"></div>
-  <div class="row course-detail">
-    <div class="col-lg-12 mt-3">
-       <h2 class="display-4">BCA(SCIENCE)</h2>
+  <div class="backgrounddark" id="shape"></div>
+  <section class="borderbott">
+  
+  <div class="row course-detail ">
+    <div class="col-lg-3 col-12 mt-3 text-center">
+       <h1 class="display-4">BCA(SCIENCE)</h1>
     </div>
-  <div class="row m-lg-3">
-    <div class="col-lg-5 p-lg-5 col-12">
-        <img class="img-fluid" src="rtgOtlJ.jpg" alt="Chania">
+    <div class="row my-auto">
+    <div class="col-lg-4 col-11">
+        <img class="img" src="./images/rtgOtlJ.jpg" alt="Chania">
     </div>
     <div class="col-lg-7 col-12 p-3">
-          <div class="bg-white p-3 text-dark">
+          <div class="bg-dark p-3" id="detailtoggle">
             Bca Science is a new course started in 2016 by SavitribaiPhule University
             It aims to make student in functional programmers.
             It is three Years Course.
           </div>
-            <div id="ci1" class=" text-danger mb-2 bg-white p-3"><p>
+            <div id="info" class=" bodytext mb-2 bg-info p-3"><p>
               Bachelor in Computer Application (BCA)
               BCA Bachelor in Computer Application (BCA) is an undergraduate degree course in computer applications.
               With the rapid growth of IT industry in India, the demand of computer professional is increasing day by
@@ -83,11 +84,12 @@
               to work in the IT sector as programmer or software developer.
               To get complete knowledge about the course and career scope, you can go through this article.
            </p> </div>
-          
+         </div> 
     </div>
   </div>
 </section>
     <!--Course Informaton  -->
+    
     <div class="d-flex flex-lg-row  flex-column m-5 .justify-content-center">
       <div class="d-flex flex-column bg-white col-lg-4 col-12 p-0 .justify-content-center">
         <div class="jumbotron p-4">
@@ -107,10 +109,9 @@
             <a class="text-primary" href="#"><h3 class="card-link">Admissions</h3></a>
           </div>
       </div>
-      
       <div class="col-lg-2 col-10 my-lg-auto mx-auto offset-lg-1 mt-5">
         <div class="card">
-          <img class="card-img-top" src="syllabus.jpg" alt="">
+          <img class="card-img-top" src="./images/syllabus.jpg" alt="">
           <div class="card-body">
             <h5 class="card-title">Syllabus</h5>
           </div>
@@ -118,7 +119,7 @@
       </div>
         <div class="col-lg-2 col-10 my-lg-auto mx-auto mt-4 ">
           <div class="card">
-            <img class="card-img-top" src="solution.jpg" alt="">
+            <img class="card-img-top" src="./images/solution.jpg" alt="">
             <div class="card-body">
               <h5 class="card-title">Semester-Wise Program Solutions</h5>
             </div>
@@ -126,14 +127,14 @@
         </div>
         <div class="col-lg-2 col-10 my-lg-auto mx-auto mt-4 justify-content-center ">
           <div class="card">
-            <img class="logo card-img-top" src="exam icon.jpg" alt="">
+            <img class="logo card-img-top" src="./images/exam icon.jpg" alt="">
             <div class="card-body">
               <h5 class="card-title">Previous Year Papers</h5>
             </div>
           </div>
         </div>
     </div>
-      
+  </div>  
   </section>      
   <section class="footer mx-auto page-titles pb-5">
     <h2 class="text-left ml-2 ">
@@ -160,9 +161,6 @@
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
   </script>
@@ -170,3 +168,4 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
 <script src="jsforindexpage.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

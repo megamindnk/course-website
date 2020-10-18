@@ -6,12 +6,14 @@
 
          var divbg = $(".bg-dark");  
          var teambg = $(".bg-secondary"); 
+
         $("#themechanger").click(function(){
+         
             if(light == true){
                 light = false;
 
                 $(divbg).each(function (index, value) {
-                    $(value).removeClass("bg-success");
+                    $(value).removeClass("specbg");
                     $(value).addClass("bg-dark");                       
                 }); 
 
@@ -19,6 +21,11 @@
                     $(value).removeClass("bg-info");
                     $(value).addClass("bg-seconday");                       
                 }); 
+
+                $(teambg).each(function (index, value) {
+                    $(value).addClass("bg-secondary");
+                    $(value).removeClass("bg-info");                       
+                });
 
 
                 for(i=0;i<allbodytxt.length;i++)
@@ -47,7 +54,7 @@
                 
                 $(divbg).each(function (index, value) {
                       $(value).removeClass("bg-dark");
-                      $(value).addClass("bg-success");                       
+                      $(value).addClass("specbg");                       
                 }); 
 
                 $(teambg).each(function (index, value) {
@@ -71,4 +78,12 @@
                 $(".footer").css({'background-color':'rgb(63, 223, 175)'});
             }
         })
+    
+     
+            if($(window).width() < 400){
+                $("#info").hide();
+                    $("#detailtoggle").click(function(){
+                    $("#info").slideToggle("fast");
+                });
+            }
     });
